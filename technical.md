@@ -3,15 +3,18 @@
 CPlusの技術仕様についてまとめます。
 
 ## 技術選定
-
-|ID|採用|
-|---|---|
-|構築言語|Ruby 3.0.0|
-|フレームワーク|Rails 6.1.3.1|
-|UI|Bulma 0.9.2(Webpack経由で改造)|
-|RDB|PostgreSQL(詳細はconfig/database.ymlを参照)|
-|CI|TravisCI|
-|リリースプラットフォーム|Heroku（予定）|
+```eval_rst
+=====               =====
+ID                  採用
+=====               =====
+構築言語              Ruby 3.0.0
+フレームワーク          Rails 6.1.3.1
+UI                  Bulma 0.9.2(改造あり)
+RDB                 PostgreSQL(詳細はconfig/database.ymlを参照)
+CI                  TravisCI
+リリースプラットフォーム  Heroku（予定）
+=====               =====
+```
 
 ## インストールとデプロイ
 

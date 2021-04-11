@@ -70,7 +70,7 @@ html_static_path = ['_static']
 
 
 source_parsers = {
-    '.md': CommonMarkParser,
+    '.md': 'recommonmark.parser.CommonMarkParser',
 }
 
 source_suffix = ['.rst', '.md']
